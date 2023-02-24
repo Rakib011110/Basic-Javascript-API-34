@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #all-countryContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+      }
+      .country {
+        border: 2px solid red;
+        padding: 5px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>All Countries</h2>
+    </header>
+
+    <section id="countyDetail"></section>
+
+    <section>
+      <div id="all-countryContainer"></div>
+    </section>
+
+    <script src="javaScript/country.js"></script>
+  </body>
+</html>
